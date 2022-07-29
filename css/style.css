@@ -1,0 +1,289 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container2{
+  width: 720px;
+  margin: 0 auto;
+}
+
+.topo {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topo ul li {
+  display: inline;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.topo ul {
+  margin: 0;
+  padding: 0;
+}
+
+.topo ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  float: left;
+}
+
+.topo ul li a:hover {
+  color: black;
+  background-color: gray;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content p {
+  padding: 5px;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown p:hover {
+  background-color: gray;
+}
+
+.search-btn {
+  color: white;
+}
+
+.pesquisa {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.pesquisa:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.banda{
+  display: flex;
+  justify-content: center;
+}
+.banda h2{
+  text-align: center;
+  margin-top: 80px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.texto-cinza{
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  color: gray;
+  margin-bottom: 20px;
+}
+.banda p{
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: justify;
+  margin-bottom: 60px;
+}
+.banda .col-md-4{
+  align-self: stretch;
+}
+.banda img{
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+.banda .member-name{
+  text-align: center;
+  padding: 0;
+  margin: 15px;
+}
+
+.tour{
+  background-color: black;
+}
+.tour h2{
+  color: white;
+  margin-top: 80px;
+  text-align: center;
+  font-weight: 400;
+}
+.tour .texto-cinza{
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.setembro{
+  background-color: white;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+.setembro p{
+  display: inline;
+  margin: 5px;
+  color: gray;
+}
+.setembro .vendido{
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+
+.outubro{
+  background-color: white;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+.outubro p{
+  display: inline;
+  margin: 5px;
+  color: gray;
+}
+.outubro .vendido{
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+
+.novembro{
+  background-color: white;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 40px;
+}
+.novembro p{
+  display: inline;
+  margin: 5px;
+  color: gray;
+}
+.novembro .tres{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  float: right;
+  margin-right: 20px;
+  border-radius: 15px;
+  width: 30px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.tickets .caixa{
+  background-image: linear-gradient(black 40%, white 44%);
+  margin-bottom: 100px;
+}
+.tickets img:hover{
+  opacity: 0.7;
+  width: 100%;
+}
+.tickets p{
+  padding: 5px;
+}
+.tickets .cidade{
+  font-weight: bold;
+}
+.tickets .data{
+  color: gray;
+}
+.tickets .tickets-btn{
+  margin-left: 15px;
+  padding: 7px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-bottom: 20px;
+}
+.tickets .tickets-btn:hover{
+  background-color: gray;
+  color: black;
+}
+
+.contact{
+  background-color: white;
+}
+.contact h2{
+  text-align: center;
+  font-weight: 400;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.contact .texto-cinza{
+  margin-bottom: 60px;
+}
+.cnt-l{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+.nome, .email{
+  width: 25%;
+  padding: 5px;
+}
+.mensagem{
+  width: 51%;
+  padding: 5px;
+  margin-top: 10px;
+}
+.contact-button{
+  display: block;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  padding: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.map{
+  background-image: url(/img/map.jpg);
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.9;
+}
+
+footer{
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+footer i{
+  font-size: 2rem;
+  color: gray;
+  margin-top: 80px;
+  padding: 5px;
+}
+footer i:hover{
+  cursor:pointer;
+  color: rgb(168, 167, 167);
+}
